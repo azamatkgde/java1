@@ -2,7 +2,7 @@ package methods.aizat;
 
 public class MethodTest {
     public static void main (String[] args){
-        int result = add(10, 20);  // методду чакыруу
+        int result = add(15, 25);  // методду чакыруу
         System.out.println("Жыйынтык: " + result);
     }
 
@@ -10,5 +10,5 @@ public class MethodTest {
     public static int add(int a, int b) {
         int sum = a + b;
         return sum;
-}
+    }
 }
