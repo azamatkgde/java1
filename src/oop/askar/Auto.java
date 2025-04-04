@@ -1,11 +1,12 @@
-import oop.askar.Auto;
-public class Main {
+package oop.askar;
+
+public class Auto {
     private String brand;
     private int year;
     private double price;
 
     // Конструктор
-    public Main(String brand, int year, double price) {
+    public Auto(String brand, int year, double price) {
         this.brand = brand;
         this.year = year;
         this.price = price;
@@ -46,7 +47,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Создаем объект машины
-        oop.askar.Auto myCar = new oop.askar.Auto("Mercedes", 2008, 8000);
+        Auto myCar = new Auto("Mercedes", 2008, 8000);
 
         // Выводим информацию о машине
         myCar.displayInfo();
@@ -56,4 +57,3 @@ public class Main {
         System.out.println("\nНовая цена после скидки: " + myCar.getPrice() + " евро");
     }
 }
-
