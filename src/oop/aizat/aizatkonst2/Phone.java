@@ -1,4 +1,4 @@
-package oop.azamat;
+package oop.aizat.aizatkonst2;
 
 public class Phone {
     private String brand;
