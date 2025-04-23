@@ -6,5 +6,6 @@ public class HelloWorld {
         String text = "\nМен келдим,\nМен ";
         Number age = 19;
         System.out.println(name + text + age +" жаштамын.");
+        System.out.println(name + text + age +" жаштамын.");
     }
 }
