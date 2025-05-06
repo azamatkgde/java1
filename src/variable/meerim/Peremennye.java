@@ -1,13 +1,12 @@
 package variable.meerim;
 
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Peremennye {
     public static void main(String[] args) {
         // Scanner'ди жаңы Locale менен түзүү
-        Scanner sc = new Scanner( System.in ).useLocale( Locale.US );
+        Scanner sc = new Scanner( System.in );
         //Scanner sc = new Scanner(System.in);
 
         System.out.println( "Who are you?" );
