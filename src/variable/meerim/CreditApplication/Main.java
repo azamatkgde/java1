@@ -11,9 +11,9 @@ public class Main {
 
 
         CreditApplication application = new CreditApplication();
-        application.setName( "Meerim" );
-        application.setSurname( "Talipova" );
-        application.setBirthday( LocalDate.of( 2010, 5, 27 ) );
+        application.setName( "Maks" );
+        application.setSurname( "T" );
+        application.setBirthday( LocalDate.of( 2010, 5, 7 ) );
         application.setJob( "Software Engineer" );
         application.setPassport( passport );
         application.setContactinfo( contact );
