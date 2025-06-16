@@ -1,7 +1,7 @@
 package oop.yryskeldi;
 
 public class SportCar extends Car {
-    int maxSpeed;
+    private int maxSpeed;
 
     public SportCar(String name, int year, int maxSpeed) {
         super(name, year);

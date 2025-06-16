@@ -1,8 +1,8 @@
 package oop.yryskeldi;
 
 public class Car {
-    String name;
-    int year;
+    private String name;
+    private int year;
 
     public Car(String name, int year) {
         this.name = name;

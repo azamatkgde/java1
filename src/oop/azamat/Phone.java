@@ -16,4 +16,8 @@ public class Phone {
     public void printInfo() {
         System.out.println("Brand: " + brand);
     }
+
+    void aboutPhone() {
+        System.out.println("Телефон жөнүндө функционал");
+    }
 }
