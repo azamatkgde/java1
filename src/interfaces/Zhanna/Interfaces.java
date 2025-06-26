@@ -1,4 +1,4 @@
-package interfaces.Zhanyl;
+package interfaces.Zhanna;
 
 import java.util.Scanner;
 

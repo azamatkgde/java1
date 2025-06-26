@@ -1,4 +1,4 @@
-package interfaces.Zhanyl;
+package interfaces.Zhanna;
 
 class Car implements Driveable {
     public void drive() {
