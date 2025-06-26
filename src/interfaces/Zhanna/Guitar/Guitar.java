@@ -1,4 +1,4 @@
-package interfaces.Zhanyl.Guitar;
+package interfaces.Zhanna.Guitar;
 
 public class Guitar implements Playable {
     public void play() {

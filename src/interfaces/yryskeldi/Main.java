@@ -1,4 +1,4 @@
-package interfaces.Zhanyl.Guitar;
+package interfaces.yryskeldi;
 
 public class Main {
     public static void main(String[] args) {
