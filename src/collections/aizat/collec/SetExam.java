@@ -1,4 +1,4 @@
-package collections.aizat;
+package collections.aizat.collec;
 
 import java.util.HashSet;
 import java.util.Set;

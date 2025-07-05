@@ -1,4 +1,4 @@
-package collections.aizat;
+package collections.aizat.collec;
 
 import java.util.HashMap;
 import java.util.Map;
