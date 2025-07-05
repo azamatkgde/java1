@@ -8,10 +8,17 @@ public class Listt {
         public static void main(String[] args) {
             List<String> students = new ArrayList<>();
 
-            students.add("Айдана");
-            students.add("Нурсултан");
-            students.add("Эрмек");
-            students.add("Алия");
+            students.add("Айзат");
+            students.add("Омка");
+            students.add("Эрлан");
+            students.add("Ажибай");
+            students.add("Байма");
+            students.add("Бексултан");
+            students.add("Турат агай");
+            students.add("Ырыскелди");
+            students.add("Улан уулу");
+            students.add("Жамал");
+            students.add("Жаңыл");
 
             Scanner scanner = new Scanner(System.in);
             System.out.print("Введите имя студента для проверки: ");
