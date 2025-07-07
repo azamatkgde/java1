@@ -15,6 +15,6 @@ public class Vehicle {
 
     // Метод
     public void printInfoTransport() {
-        System.out.println("Эй кандайсың?: " + model);
+        System.out.println("Модели: " + model);
     }
 }
