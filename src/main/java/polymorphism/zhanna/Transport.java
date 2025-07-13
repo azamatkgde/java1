@@ -1,4 +1,4 @@
-package polymorphism.azamat.zhanna;
+package polymorphism.zhanna;
 
 //Базалык Transport классы
 abstract class Transport {

@@ -1,4 +1,4 @@
-package polymorphism.azamat.zhanna;
+package polymorphism.zhanna;
 //  Car классы - Transport'тан мураска алат
 class Car extends Transport {
     @Override

@@ -1,4 +1,4 @@
-package polymorphism.azamat.zhanna;
+package polymorphism.zhanna;
 
 // Bike классы - Transport'тан мураска алат
 class Bike extends Transport {
