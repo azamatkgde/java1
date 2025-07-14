@@ -1,4 +1,4 @@
-package polymorphism.azamat.zhanna;
+package polymorphism.zhanna;
 
 //  Train классы - Transport'тан мураска алат
 class Train extends Transport {
