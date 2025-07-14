@@ -13,6 +13,13 @@ public class ArraysExample {
 
         //Кыска формада жарыялоо жана инициализациялоо:
         numbers =new int[]  {10,20,30,40,50,60,70,80,90,};
+
+        try {
+            System.out.println(numbers[11]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Ката: Индекс массивден тышкары болуп жатат!");
+        }
+
         //Элементке жетүү:0 жана 1
         System.out.println("Биринчи элемент: " + numbers [0]) ;
         System.out.println("Экинчи элемент: " + numbers [1]) ;
