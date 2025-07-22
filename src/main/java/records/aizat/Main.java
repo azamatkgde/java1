@@ -1,17 +1,21 @@
 package records.aizat;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car("BMW", 2025, false);
-        Car car2 = new Car("Toyota", 2017, true);
 
-        System.out.println("Car 1: " + car);
-        System.out.println("Car 2: " + car2);
+        Scanner scanner = new Scanner(System.in);
 
-        if (car.equals(car2)) {
-            System.out.println("Экөөнүн баары бирдей");
-        } else {
-            System.out.println("Унаалар ар башка");
-        }
+        System.out.print("Введите имя пользователя: ");
+        String username = scanner.nextLine();
+
+        System.out.print("Введите пароль (Пароль должен быть не меньше 6 символов): ");
+        String password = scanner.nextLine();
+
+        Userr user = new Userr(username, password);
+
+        System.out.println("Имя: " + user.username());
+        System.out.println("Пароль: " + user.password());
     }
 }
