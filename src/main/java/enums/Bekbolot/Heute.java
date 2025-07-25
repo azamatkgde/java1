@@ -1,4 +1,4 @@
-package Enum.Bekbolot;
+package enums.Bekbolot;
 
 public class Heute {
     public static void main(String[] args) {

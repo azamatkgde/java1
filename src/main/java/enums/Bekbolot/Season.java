@@ -1,4 +1,4 @@
-package Enum.Bekbolot;
+package enums.Bekbolot;
 
 public enum Season {
     WINTER,
